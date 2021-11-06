@@ -4,10 +4,10 @@ function myFunction() {
     var pass = document.getElementById("pass").value;
     var hashpass = stringToHash(pass);
     if(user == "student" && hashpass =="756772831"){
-      location.replace("index1.html")
+      location.replace("http://localhost/img/")
     }
     else if(user == "faculty" && hashpass =="756772831"){
-      location.replace("index1.html")
+      location.replace("http://localhost/test/")
     }
   }
   function stringToHash(string) {
